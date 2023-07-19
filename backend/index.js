@@ -69,9 +69,9 @@ app.put("/books/:id", (req, res) => {
         if (err) return res.json(err);
         return res.json("Book has been updated successfully!");
     })
-})
+});
 
 
 app.listen(8800, () => {
-    console.log("Connected to backend!")
-})
+    console.log("Connected to backend!");
+});
